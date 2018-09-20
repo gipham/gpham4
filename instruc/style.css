@@ -1,0 +1,13 @@
+h2{
+	text-transform:uppercase;
+	font-weight: bold;
+	font-family: fantasy;
+	text-align: center;
+	font-size: 60px;
+}
+li{
+	font-family: 'PT Mono', monospace;
+	margin:30px 20% 30px;
+	font-size: 25px;
+
+}
