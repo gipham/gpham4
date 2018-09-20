@@ -5,19 +5,20 @@ body{
 	font-size: 50px;
 	text-align: center;
 }
-div{
+/*div{
 	height: 300px;
 	width: 600px;
 	background-color: white;
 	margin: 150px auto;
 	position:absolute;
-}
+}*/
 p{
 	text-align: center;
 	color:white;
 	font-family: fantasy;
 	font-size: 200px;
-	margin: 300px auto;
+	/*margin: 300px auto;*/
+	position:absolute;
 	/*top:200px;*/
 
 	/*margin:250px auto;*/
@@ -31,15 +32,33 @@ p{
 	background-color: white;
 	position:fixed;
 }
+.container{
+	width:100%;
+	position:relative;
+
+}
 .one{
 	top:200px;
 	left:100px;
+	z-index: 1;
 }
-/*.two{
-	top:200px;
-	left:500px;
-}*/
+.two{
+	width:100%;
+	z-index:2;
+}
 .dance{
 	top:400px;
 	left:350px;
+	z-index: 1;
+}
+.shock{
+	top: 350px;
+	left:500px;
+	z-index: 1;
+}
+
+.smile{
+	top:100px;
+	left:350px;
+	z-index: 1;
 }
