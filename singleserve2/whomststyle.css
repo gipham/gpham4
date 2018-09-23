@@ -4,6 +4,11 @@ body{
 	font-family: sans-serif;
 	font-size: 50px;
 	text-align: center;
+	background-image:url("images/soulja2.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
 }
 /*div{
 	height: 300px;
@@ -19,46 +24,83 @@ p{
 	font-size: 200px;
 	/*margin: 300px auto;*/
 	position:absolute;
+	/*margin: 50% auto;*/
 	/*top:200px;*/
 
 	/*margin:250px auto;*/
 
 }
-.scroll{
+/*.scroll{
 	height:100px;
 	width: 200px;
 	font-size: 30px;
 	margin:500px auto;
 	background-color: white;
 	position:fixed;
-}
+}*/
 .container{
 	width:100%;
-	position:relative;
+	height:100%;
+	/*text-align: center;
+	color:white;
+	font-family: fantasy;
+	font-size: 200px;
+	position:absolute;*/
+	/*position:relative;*/
 
 }
 .one{
-	top:200px;
-	left:100px;
-	z-index: 1;
+
+	top:0;
+	left:0;
+
+	/*z-index: 1;*/
 }
-.two{
+
+/*.two{
 	width:100%;
-	z-index:2;
+	height:100%;
+	position:absolute;
+	/*top:200px;
+	left:200px;*/
+	/*z-index:2;*/
 }
 .dance{
-	top:400px;
-	left:350px;
-	z-index: 1;
+	top:0;
+	right:0;
+	/*z-index: 1;*/
 }
 .shock{
-	top: 350px;
-	left:500px;
-	z-index: 1;
+	bottom:0;
+	left:0;
+	/*z-index: 1;*/
 }
 
 .smile{
-	top:100px;
-	left:350px;
-	z-index: 1;
+	bottom:0;
+	right:0;
+	/*z-index: 1;*/
 }
+/*.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}*/
