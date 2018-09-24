@@ -1,8 +1,7 @@
 h2{
 	text-transform:uppercase;
 	font-weight: bold;
-	font-family: fantasy;
-	text-align: center;
+ 	text-align: center;
 	font-size: 60px;
 }
 li{
@@ -11,3 +10,11 @@ li{
 	font-size: 25px;
 
 }
+
+p{
+	font-family: fantasy;
+	font-size: 100px;
+	font-weight: italic;
+	color:navy;
+}
+
