@@ -1,0 +1,9 @@
+ul{
+	list-style-type: none;
+}
+body{
+	font-family: fantasy;
+	font-size: 50px;
+	font-weight: bold;
+	background-color: lightblue;
+}
