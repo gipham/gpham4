@@ -51,14 +51,25 @@ div{
 .left{
 	height:500px;
 	width:500px;
-	top:50%;
+	position:fixed;
+	top:25%;
 	left:0;
-	
+
+	/*top: 50%;
+	left: 50%;
+	   bring your own prefixes 
+	transform: translate(-50%, -50%);
+	*/
 }
 .right{
 	height:500px;
 	width:500px;
-	top:50%;
+	position:fixed;
+	top:25%;
 	right:0;
+	/*top: 50%;
+	left: 50%;
+	   bring your own prefixes 
+	transform: translate(-50%, -50%);*/
 
 }
