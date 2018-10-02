@@ -1,0 +1,32 @@
+body{
+	background-color:lightpink;
+	cursor: default;
+}
+h1{
+	text-align: center;
+	font-family: monospace;
+	font-size: 50px;
+	font-weight: bold;
+
+}
+p{
+	text-align: center;
+	font-family: monospace;
+	font-size: 30px;
+	font-weight: bold;
+
+}
+a{
+	border-bottom: none;
+	font-family: monospace;
+	font-size: 30px;
+	font-weight: bold;
+	cursor:pointer;
+	color:hotpink;
+	transition: all .3s ease;
+
+
+}
+a:hover{
+	color:white;
+}
