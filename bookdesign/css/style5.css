@@ -1,0 +1,58 @@
+*{
+	font-size: 18px;
+}
+.top{
+	position: fixed;
+	top:10px;
+	left:10px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 0.1;
+}
+h1{
+	font-weight: bold;
+	font-size: 2em;
+}
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+}
+.text{
+	position:absolute;
+	margin:10% 10%;
+	left:30%;
+}
+p{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+/*.buttons{
+	width:100%;
+	background-color: white;
+}
+.button1{
+	position:fixed;
+	top:0;
+	left:100px;
+
+}
+.button2{
+	position:fixed;
+	top:0;
+	left:200px;
+
+}
+.button3{
+	position:fixed;
+	top:0;
+	left:300px;
+}*/
+
+a{
+	border-bottom: none;
+	text-decoration:none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	cursor:pointer;
+	color:navy;
+	transition: all .3s ease;
+}

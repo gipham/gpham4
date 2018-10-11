@@ -1,11 +1,55 @@
 *{font-size: 18px}
+/*body{
+	margin:10px 35%;
+}*/
+
 .block{
 	height:100%;
-	width:100%;
+	/*width:100%;*/
 	background-color:#9B59B6;
-	color: #EBDEF0;
+	/*color: #EBDEF0;*/
 
 }
+.inside{
+
+	position: absolute; /* or absolute */
+	left: 50%;
+	top: 50%;
+	background-color:#9B59B6;
+	border:7px solid #9B59B6;
+	text-align: center;
+	color:white;
+
+	  /* bring your own prefixes */
+	transform: translate(-50%, -50%);
+	/*border: 10px white solid;*/
+}
+
 h1{
 	font-family: 'Spirax', cursive;
+	font-size: 4em;
+}
+h2{
+	font-family: 'Playfair Display', serif;
+	font-size: 3em;
+}
+h3{
+	font-family: 'Playfair Display', serif;
+	font-size: 2em;
+
+}
+h4{
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5em;
+
+}
+.text{
+	position:absolute;
+	margin:0 30%;
+	top:100%;
+}
+
+p{
+	font-family: 'EB Garamond', serif;
+
 }

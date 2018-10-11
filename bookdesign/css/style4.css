@@ -1,0 +1,40 @@
+*{
+	font-size: 18px
+}
+h1{
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 3em;
+}
+h2{
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 2em;
+}
+h3{
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 1.7em;
+}
+h4{
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 1.3em;
+}
+div{
+	position:fixed;
+	top:50%;
+}
+.text{
+	position:absolute;
+	top:20px;
+	left:50%;
+	width: 40%;
+}
+.chapter{
+	position:fixed;
+	text-align: center;
+	transform: rotate(-90deg);
+	/*top:100px;*/
+	left:30%;
+}
+p{
+	
+	font-family: 'Hind', sans-serif;
+}

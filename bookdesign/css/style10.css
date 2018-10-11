@@ -1,0 +1,47 @@
+*{
+	font-size: 18px;
+}
+h1{
+	font-size: 4em;
+	font-family: 'Special Elite', cursive;
+}
+h2{
+	font-size: 2em;
+	font-family: 'Special Elite', cursive;
+	opacity: .7;
+}
+h3{
+	font-size: 1.5em;
+	font-family: 'Slabo 27px', serif;
+}
+h4{
+	font-size: 1.5em;
+	font-family: 'Slabo 27px', serif;
+}
+p{
+	font-family: 'Slabo 27px', serif;
+
+}
+.back{
+	position: fixed;
+	left:50%;
+	top: 50%;
+	opacity: .2;
+	text-align: right;
+	line-height: .3;
+}
+.chapter{
+	position:fixed;
+	transform:rotate(90deg);
+	left: 70%;
+	top:30%;
+
+}
+
+.text{
+	position: absolute;
+	width: 30%;
+	left: 50%;
+	top: 5%;
+
+}

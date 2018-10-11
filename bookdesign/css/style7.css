@@ -1,0 +1,54 @@
+*{
+	font-size: 18px;
+}
+h1{
+	font-family: 'Lobster', cursive;
+	font-size: 3em;
+	text-align: left;
+}
+h2{
+	font-family: 'Lobster', cursive;
+	font-size: 2em;
+}
+h3{
+	font-family: 'Tinos', serif;
+	font-size: 1.5em;
+	text-align: left;
+}
+h4{
+	font-family: 'Tinos', serif;
+	font-size: 1.5em;
+	text-align: left;
+}
+p{
+	font-family: 'Tinos', serif;
+}
+.side{
+	position: fixed;
+	width: 500px;
+	text-align: center;
+	line-height: .5;
+	top:20%;
+	left: 20%;
+}
+.box{
+	
+	top:20px;
+	left: 50%;
+	width: 500px;
+	height: 500px;
+}
+.top{
+	position: fixed;
+	top: 8%;
+	left: 50%;
+}
+.inside{
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	border: 1px gray dotted;
+	overflow: auto;
+	width:500px;
+	height:500px;
+}

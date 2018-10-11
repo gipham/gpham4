@@ -1,0 +1,32 @@
+*{font-size: 18px}
+body{
+	background-color: black;
+	color:white;
+	margin: 10% 30%;
+}
+h1{
+	font-family: 'Covered By Your Grace', cursive;
+	font-size: 3.5em;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: .2;
+}
+h2{
+	font-family: 'Arimo', sans-serif;
+	text-align: center;
+	font-size: 1.5em;
+
+}
+h3{
+	font-family: 'Arimo', sans-serif;
+	text-align: center;
+
+}
+h4{
+	font-family: 'Arimo', sans-serif;
+	text-align: center;
+	line-height: .2;
+}
+p{
+	font-family: 'Arimo', sans-serif;
+}
