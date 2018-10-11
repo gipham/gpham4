@@ -1,0 +1,43 @@
+*{font-size:18px;}
+
+body{
+	margin:10% 30%;
+}
+
+h1{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 4em;
+	color:navy;
+	line-height: 10px;
+
+}
+h2{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 2em;
+
+}
+h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size:1.7em;
+
+}
+h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size:1.3em;
+	line-height: 10px;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+}
+/*.right{
+	height:100%;
+	width:8%;
+	right:0px;
+	color:navy;
+}
+.left{
+	height:100%;
+	width:8%;
+	left:0px;
+	color:navy;
+}*/

@@ -1,0 +1,47 @@
+font weight:
+	normal
+	bold
+	bolder
+	lighter (might not be able to work)
+	number (100-900)
+	initial
+	inherit
+type style:
+	italics, etc
+Text-transform:
+	none
+	caps
+	uppercase
+	lovercase
+	initial
+	inherit
+text-align:
+	left
+	right
+	center
+	jusitfy
+	initial
+	inherit
+line height: (1.4em is a good starting point for bdy type)
+	normal
+	number (multiplied with font size)
+	lenth (fixed value px em etc)
+	percentage (perfecntage of current font)
+	initial
+	inherit
+letter spacing: (add letter spacing to all caps type)
+	normal
+	length (fixed val)
+dashes:
+	em dash: &mdash; (longest dash)
+	en dash: &ndash; (take place for the word "to" like 7:30-(to)4)
+quotations:
+	left single quote: &lsquo;
+	right single quote: &rsquo;
+	left double quote: &ldquo;
+	right double quote: &rdquo;
+
+ampersand: &amp
+ellipsis: &hellip
+Non-breaking sapce: &nbsp (space that will not break when screen is adjust)
+

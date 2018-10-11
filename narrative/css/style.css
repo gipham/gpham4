@@ -38,16 +38,50 @@ a{
 
 
 }
-a:hover{
+/*a:hover{
 	color:lightpink;
+}*/
+.correct:hover{
+	color:lightpink;
+}
+.forward:hover{
+	color:green;
+}
+.backward:hover{
+	color:red;
+}
+.nicki:hover{
+	color:lightblue;
+}
+p::selection{
+	color:white;
+	background-color:pink;
+}
+.correct::selection{
+	color:white;
+	background-color: lightpink;
+}
+.forward::selection{
+	color:white;
+	background-color: lightgreen;
+}
+.backward::selection{
+	color:white;
+	background-color: salmon;
+}
+.nicki::selection{
+	color:white;
+	background-color: lavender;
 }
 div{
 	background-color:white;
 	position: fixed; /* or absolute */
-	top: 50%;
 	left: 50%;
+	top: 50%;
+
 	  /* bring your own prefixes */
 	transform: translate(-50%, -50%);
+	border: 10px white solid;
 }
 .left{
 	height:500px;

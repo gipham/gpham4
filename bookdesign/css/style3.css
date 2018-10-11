@@ -1,0 +1,11 @@
+*{font-size: 18px}
+.block{
+	height:100%;
+	width:100%;
+	background-color:#9B59B6;
+	color: #EBDEF0;
+
+}
+h1{
+	font-family: 'Spirax', cursive;
+}
