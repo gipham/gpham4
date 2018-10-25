@@ -1,5 +1,7 @@
 body{
 	font-size: 20px;
+	background-color: #e74c3c;
+	color:white;
 
 }
 #container{
@@ -19,10 +21,17 @@ body{
 
 }
 .top{
+	top:50vh;
 	width:55vw;
 	margin:0 auto;
 	height:100vh;
 
+
+}
+.bodytext{
+	background-color: white;
+	color:black;
+	border: 10px solid white;
 }
 /*.red{
 	width:100vw;
@@ -55,31 +64,40 @@ p{
 
 
 @media only screen and (max-width: 600px) {
-    body{
-	font-size: 20px;
+   body{
+		font-size: 18px;
+		background-color: #55efc4;
+		color:#079992;
 
 	}
 	#container{
-		width:100vw;
+		width:90vw;
 		margin:0 auto;
 
 	}
 	.info{
-		width:100vw;
+		width:45vw;
 		margin:0 auto;
 		font-style: italic;
 		text-align: center;
 	}
 	.sub{
-		width:100vw;
+		width:50vw;
 		margin:0 auto;
 
 	}
 	.top{
-		width:100vw;
+		top:50vh;
+		width:90vw;
 		margin:0 auto;
 		height:100vh;
 
+
+	}
+	.bodytext{
+		/*background-color: white;
+		color:black;
+		border: 10px solid white;*/
 	}
 	/*.red{
 		width:100vw;
@@ -88,12 +106,12 @@ p{
 		color:white;
 	}*/
 	h1{
-		font-size:3em;
+		font-size:4em;
 		text-align: center;
 
 	}
 	h2{
-		font-size: 1.8em;
+		font-size: 2em;
 
 	}
 	h3{
@@ -101,7 +119,7 @@ p{
 
 	}
 	h4{
-		font-size:1.2em;
+		font-size:1.3em;
 		text-align: center;
 
 	}
