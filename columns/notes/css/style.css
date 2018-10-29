@@ -1,0 +1,44 @@
+#container{
+	width:75vw;
+	margin:50px auto;
+}
+.headline{
+	width:50vw;
+	margin: 0 auto;
+}
+.left{
+	width: calc((100%/2)-25px);
+	margin-right:25px;
+
+}
+/*to tie two columns together*/
+.fullcol{
+	width:100%;
+}
+.left, .right{
+	float:left;
+}
+.right{
+ 	width: calc((100%/2)-25px);
+	margin-left:25px;
+
+}
+img{
+	max-width: 100%;
+}
+
+@media only screen and (max-width: 1440px){
+	/*only add things here of things you want to change!*/
+	#container{
+		/*changes*/
+	}
+}
+@media only screen and (max-width: 1024px){
+	/*can have multiple for multiple screen sizes!*/
+	.left{
+		/*changes*/
+	}
+	.right{
+		/*changes*/
+	}
+}
