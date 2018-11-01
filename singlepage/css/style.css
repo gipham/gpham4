@@ -3,6 +3,8 @@ body{
 	height:100%;
 	font-size: 20px;
 	color:#59677B;
+	font-family: 'Roboto Condensed', sans-serif;
+	line-height: 1.4;
 
 }
 #container{
@@ -34,34 +36,46 @@ body{
 .gray{
 	background-color: #E3E3E3;
 	width: 100vw;
-	margin-bottom: 50px;
+	border-bottom: solid #E3E3E3 45px;
 }
 .white{
 	background-color: white;
 	width:100vw;
-	margin-bottom: 50px;
+	border-bottom: solid white 45px;
 }
 .tagb{
 	width:48vw;
 	background-color: #4F9AC4;
+
 }
 .tagr{
 	width:48vw;
 	background-color: #CE4647;
+	margin-bottom: 15px;
 }
 .taghead{
 	font-size: 2em;
 	text-transform: uppercase;
 	color:white;
 	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
 }
 .inforight{
-	width:48vw;
+	width:40vw;
+	margin-right:40px;
 	
 }
 .infoleft{
 	width:48vw;
+	margin-left: 20px;
 	
+}
+.gray .tagr{
+	float:left;
+}
+.white .tagr{
+	margin-left:20px;
 }
 .red{
 	color:#CE4647;
@@ -105,6 +119,24 @@ body{
 	width: 70%;
 	margin:0 auto;
 }
+.collasible{
+	display:none;
+}
+.title{
+	position:absolute;
+	width:80%;
+	margin:0 auto;
+	color:#59677B;
+	font-size: 4em;
+	top:45%;
+	left:10%;
+	text-align: center;
+
+}
+.contact{
+	width:70%;
+	margin:0 auto;
+}
 h1{
 	font-size: 1.7em;
 }
@@ -112,9 +144,19 @@ h3{
 	font-size: 1.3em;
 }
 
+@media only screen and (max-width: 1200px){
+	.title{
+		top:30%;
+	}
+}
+
 @media only screen and (max-width: 1024px){
 	body{
 		font-size: 18px;
+	}
+	.title{
+		top:30%;
+		font-size: 3.5em;
 	}
 }
 
@@ -122,6 +164,11 @@ h3{
 @media only screen and (max-width: 768px){
 	body{
 		font-size: 20px;
+	}
+	.title{
+		top:20%;
+		font-size: 2.5em;
+
 	}
 	.top,.logo,.gray,.tagb,.infoleft,.white,.left,.column, .inforight,.drop,.drop2{
 		float:none;
@@ -131,5 +178,48 @@ h3{
 	}
 	.infoleft,.inforight{
 		margin:0 auto;
+	}
+	.blue{
+		background-size: 100% 100vw;
+	}
+	.tagb,.tagr{
+		margin:0 auto;
+	}
+	.three{
+		left:15%;
+	}
+	.list{
+		width:80%;
+	}
+	.bluelink{
+		width:70%;
+
+	}
+
+}
+
+@media only screen and (max-width: 320px){
+	.collapsible {
+		display:show;
+	  background-color: #eee;
+	  color: #444;
+	  cursor: pointer;
+	  padding: 18px;
+	  width: 100%;
+	  border: none;
+	  text-align: left;
+	  outline: none;
+	  font-size: 15px;
+	}
+	.tagb,.tagr{
+		width: 100vw;
+	}
+	.contact{
+		display: hide;
+	}
+	.title{
+		top:10%;
+		width:50%;
+		font-size: 2.5em;
 	}
 }
