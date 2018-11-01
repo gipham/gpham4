@@ -120,10 +120,16 @@ h3{
 
 
 @media only screen and (max-width: 768px){
+	body{
+		font-size: 20px;
+	}
 	.top,.logo,.gray,.tagb,.infoleft,.white,.left,.column, .inforight,.drop,.drop2{
 		float:none;
 	}
 	.right,.inforight{
 		float:none;
+	}
+	.infoleft,.inforight{
+		margin:0 auto;
 	}
 }
