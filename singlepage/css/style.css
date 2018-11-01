@@ -5,6 +5,7 @@ body{
 	color:#59677B;
 	font-family: 'Roboto Condensed', sans-serif;
 	line-height: 1.4;
+	margin:0;
 
 }
 #container{
@@ -32,26 +33,30 @@ body{
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin:0;
 }
 .gray{
 	background-color: #E3E3E3;
 	width: 100vw;
 	border-bottom: solid #E3E3E3 45px;
+	margin:0;
 }
 .white{
 	background-color: white;
 	width:100vw;
 	border-bottom: solid white 45px;
+	margin:0;
 }
 .tagb{
-	width:48vw;
+	width:40vw;
 	background-color: #4F9AC4;
 
 }
 .tagr{
-	width:48vw;
+	width:40vw;
 	background-color: #CE4647;
 	margin-bottom: 15px;
+	
 }
 .taghead{
 	font-size: 2em;
@@ -67,14 +72,15 @@ body{
 	
 }
 .infoleft{
-	width:48vw;
-	margin-left: 20px;
+	width:40vw;
+	margin-left:40px;
 	
 }
 .gray .tagr{
 	float:left;
 }
 .white .tagr{
+	float:right;
 	margin-left:20px;
 }
 .red{
@@ -82,10 +88,12 @@ body{
 }
 .three{
 	width:70vw;
-	margin:0 auto;
+	
+	float:left;
 }
 .column{
 	width:calc(70vw/3);
+	margin:0 auto;
 }
 .two{
 	width:70vw;
@@ -118,6 +126,7 @@ body{
 	/*line-height: .2;*/
 	width: 70%;
 	margin:0 auto;
+
 }
 .collasible{
 	display:none;
@@ -178,12 +187,14 @@ h3{
 	}
 	.infoleft,.inforight{
 		margin:0 auto;
+		width:60%;
 	}
 	.blue{
 		background-size: 100% 100vw;
 	}
 	.tagb,.tagr{
 		margin:0 auto;
+		width: 100vw;
 	}
 	.three{
 		left:15%;
@@ -194,6 +205,32 @@ h3{
 	.bluelink{
 		width:70%;
 
+	}
+	/*.collapsible {
+		display:show;
+	  cursor: pointer;
+	  padding: 18px;
+	  width: 100%;
+	  border: none;
+	  text-align: left;
+	  outline: none;
+	  font-size: 15px;
+	}*/
+	.contact{
+		display: block;
+	}
+	.title{
+		top:10%;
+		left:30%;
+		width:50%;
+		font-size: 2.3em;
+	}
+	.gray .tagr{
+		float:none;
+	}
+	.white .tagr{
+		margin-left:0;
+		float:none;
 	}
 
 }
