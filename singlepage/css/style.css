@@ -220,6 +220,9 @@ h3{
 	.title{
 		top:10%;
 		width:50%;
-		font-size: 2.5em;
+		font-size: 2em;
+	}
+	.inforight,.infoleft{
+		width:60%;
 	}
 }
