@@ -12,7 +12,7 @@ body{
 	width:100vw;
 	margin:0 auto;
 }
-.top,.logo,.gray,.tagb,.infoleft,.white,.left,.column, .inforight,.drop,.drop2{
+.top,.three,.logo,.gray,.tagb,.infoleft,.white,.left,.column, .inforight,.drop,.drop2{
 	float:left;
 }
 .right,.inforight{
@@ -56,7 +56,7 @@ body{
 	width:40vw;
 	background-color: #CE4647;
 	margin-bottom: 15px;
-	
+
 }
 .taghead{
 	font-size: 2em;
@@ -192,10 +192,10 @@ h3{
 	.blue{
 		background-size: 100% 100vw;
 	}
-	.tagb,.tagr{
-		margin:0 auto;
-		width: 100vw;
-	}
+
+	/*.tagr{
+		margin:0;
+	}*/
 	.three{
 		left:15%;
 	}
@@ -232,10 +232,14 @@ h3{
 		margin-left:0;
 		float:none;
 	}
+	.tagb,.tagr{
+		margin:0 auto;
+		width: 100vw;
+	}
 
 }
 
-@media only screen and (max-width: 320px){
+/*@media only screen and (max-width: 320px){
 	.collapsible {
 		display:show;
 	  background-color: #eee;
@@ -262,4 +266,4 @@ h3{
 	.inforight,.infoleft{
 		width:60%;
 	}
-}
+}*/
