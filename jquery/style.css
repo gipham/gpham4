@@ -1,0 +1,10 @@
+p{
+	color:blue;
+	transition: all 5s ease;
+	margin:0;
+}
+.bigger{
+	font-size: 40px;
+}
+
+$ = jquery

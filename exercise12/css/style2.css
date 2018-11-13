@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-size: 24px;
+}
+.five {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: all 2s ease;
+}
+.four {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    transition: all 2s ease;
+}
+    
+.three {
+    position: absolute;
+    top: -200%;
+    left:0;
+    transition: all 2s ease;
+    
+}
+.two {
+    position: absolute;
+    top: 0;
+    left:-100%;
+    transition: all 1s ease;
+    
+}
+.one {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    transition: all 2s ease;
+}
+.moveR {
+    right: 0;
+}
+.moveL{
+    left: 0;
+}
+.moveD{
+    top:0;
+}
+.moveU{
+    left:100%;
+}
+.fade{
+    right:0;
+    opacity:1;
+    
+    
+}
+.box {
+    width: 100vw;
+    height: 100vh;
+}
+h1, h2 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4em;
+    padding-top: 20vh;
+}
+h2 {
+    font-size: 2em;
+    padding-left:10px;
+    padding-right:10px;
+}
+.blackBGD{
+    background-color: black;
+    color: white;
+    padding-top:40vh;
+    font-size: 4em;
+    transition:all 2s ease;
+
+}
+.whiteBGD2{
+    background-color:white;
+    color:gray;
+    padding-top:40vh;
+    font-size:,4em;
+    transition:all 2s ease;
+}
+
+.whiteBGD{
+    background-color:white;
+    color:gray;
+    padding-top:40vh;
+    font-size:,5em;
+    font-style: italic;
+    transition:all 2s ease;
+}
+
+.jqClick,.jqCLick2, .jqdblClick,.jqdblClick2, .jqHover{
+    cursor: pointer;
+}
