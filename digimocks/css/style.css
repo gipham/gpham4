@@ -1,0 +1,33 @@
+body{
+	width:100vw;
+	font-size: 20px;
+}
+h1{
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	font-family: sans-serif;
+}
+.text{
+	font-weight: italic;
+	width: 30vw;
+	margin:0 auto;
+	font-family: sans-serif;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.content, .web,.phone{
+	float:left;
+	margin-left: 10px;
+}
+img{
+	max-width: 20vw;
+	font-size: 1.5em;
+
+}
