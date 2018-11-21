@@ -1,0 +1,43 @@
+body{
+    background-color: #b9efe1;
+    margin:0;
+}
+.box{
+    width:45vw;
+    margin:0 auto;
+}
+h1 {
+    font-size: 48px;
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-style: italic;
+
+}
+input {
+    width: 45vw;
+    height: 40px;
+    
+    font-size: 20px;
+    margin:50px auto;
+
+    text-align: center;
+}
+.press {
+    width: 150px;
+    background-color: #7ee2b6;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 50px auto;
+}
+.press:hover {
+    cursor: pointer;
+}
+.press p {
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-style: italic;
+}
