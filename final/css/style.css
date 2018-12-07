@@ -1,0 +1,104 @@
+body{
+	margin:0;
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif;
+}
+.container{
+	width: 100vw;
+}
+.navigation{
+	
+	background-color: black;
+	
+}
+.everything{
+	margin:0 auto;
+	width: 50vw;
+	
+}
+.everything h2{
+	text-align: center;
+}
+.awards{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.awards p{
+	line-height: .5;
+}
+
+
+a{
+	text-decoration: none;
+	color:white;
+	transition: 1s all ease;
+}
+a:hover{
+	color:red;
+}
+.inside{
+	background-color: black;
+	height: 10vh;
+	left:45vw;
+	color:white;
+	width:100vw;
+	/*margin-bottom: 10px;*/
+	text-align: center
+
+}
+.center h2{
+	text-align: center;
+}
+.left,.hover,.links,a,.awards{
+	float:left;
+}
+.right{
+	float:right;
+}
+.top{
+	width:100vw;
+	height:100vh;
+	background-color: black
+}
+.recents{
+	width: 100vw;
+	text-align: center;
+	height:100vh;
+}
+.links{
+	float:left;
+		margin:0 auto;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.members{
+	
+	margin: 0 auto;
+	
+}
+.center{
+	text-align: center;
+}
+.members p{
+	line-height: .5;
+}
+.suho,.xiumin,.lay,.baek,.chan,.chen,.do,.kai,.sehun,.kris,.luhan,.tao{
+	width: 100vw;
+}
+
+.mv{
+	margin:0 auto;
+	width:40vw;
+	left:30vw;
+	text-align: center;
+}
+img{
+	max-width: 450px;
+}
+h1{
+	text-align: center
+}
+.all{
+	width: 90vw;
+	margin:0 auto;
+}
