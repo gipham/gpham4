@@ -107,3 +107,14 @@ h1{
 	width: 40vw;
 	margin: 0 auto;
 }
+.zenbu{
+	width: 30vw;
+	margin:0 auto;
+}
+.members img{
+	padding-top: 50px;
+}
+.album img{
+	max-width: 200px;
+	margin:0 auto;
+}
