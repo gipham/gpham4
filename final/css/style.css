@@ -6,6 +6,16 @@ body{
 .container{
 	width: 100vw;
 }
+.contain{
+	width: 85vw;
+	margin: 0 auto;
+
+}
+.album{
+	float: left;
+	padding-left: 20px;
+	padding-right:20px;
+}
 .navigation{
 	
 	background-color: black;
@@ -18,6 +28,9 @@ body{
 }
 .everything h2{
 	text-align: center;
+}
+.everything p{
+	font-family: 'Open Sans', sans-serif;
 }
 .awards{
 	padding-left: 30px;
@@ -117,4 +130,49 @@ h1{
 .album img{
 	max-width: 200px;
 	margin:0 auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+ 
+.clearfix:after {
+    clear: both;
+}
+.mnavi {
+    display: none;
+    }
+.recents p{
+	font-size: .9em;
+	opacity:.9;
+}
+.recents h3{
+	font-size: 1em;
+	opacity: .8;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .mnavi {
+        display: block;
+        right: 30px;
+    }
+    .hidenavi {display: none;}
+    
+    .inside {display: none;}
+    .recents p{
+    	width: 50vw;
+    }
+ 
+}
+
+@media only screen and (max-width: 750px) {
+
+	.recents p{
+    	width: 90vw;
+    }
+
 }
