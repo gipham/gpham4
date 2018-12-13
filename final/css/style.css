@@ -171,8 +171,22 @@ h1{
 
 @media only screen and (max-width: 750px) {
 
+	body{
+		font-size: 20px;
+	}
 	.recents p{
     	width: 90vw;
     }
-
+    .recents img{
+    	max-width: 90vw;
+    }
+    .everything{
+    	width: 70vw;
+    }
+    iframe{
+    	max-width: 90vw;
+    	margin: 0 auto;
+    }
+    
+  
 }
